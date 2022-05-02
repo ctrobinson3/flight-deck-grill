@@ -1,17 +1,23 @@
 :root {
-    --blue: #102077;
-    --yellow: rgb(255, 255, 98);
-    --background: rgb(250, 243, 235);
-}
-
-body {
-    background-color: var(--background);
+	--blue: #102077;
+	--yellow: rgb(255, 205, 1);
+	--background: rgb(250, 243, 235);
 }
 
 .container {
-    max-width: 1200px;
-    position: relative;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+	position: relative;
+}
+
+.bg-image {
+	background-image: url(img/background1.jpg);
+	position: fixed;
+	background-position: 50%;
+	background-size: 500px;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.navbar {
+	position: fixed;
 }

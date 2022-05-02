@@ -1,0 +1,8 @@
+.main__div {
+	display: flex;
+	flex-direction: column;
+}
+
+.top__div {
+	margin-bottom: 100px;
+}
