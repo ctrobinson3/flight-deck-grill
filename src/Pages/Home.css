@@ -1,8 +1,18 @@
+:root {
+	--blue: #102077;
+	--yellow: rgb(255, 205, 1);
+	--background: rgb(250, 243, 235);
+}
+
 .main__div {
 	display: flex;
 	flex-direction: column;
 }
 
 .top__div {
-	margin-bottom: 100px;
+	height: 100vh;
+}
+
+.about__div {
+	height: 100vh;
 }

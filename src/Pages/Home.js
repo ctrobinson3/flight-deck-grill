@@ -9,7 +9,9 @@ const Home = () => {
 			<div className="top__div">
 				<Top />
 			</div>
-			<About />
+			<div className="about__div">
+				<About />
+			</div>
 		</div>
 	);
 };
